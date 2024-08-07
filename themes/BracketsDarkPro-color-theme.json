@@ -1,0 +1,11 @@
+{
+	"tokenColors": "./BracketsDarkPro.tmTheme",
+	"colors": {
+		"editor.background": "#1d1f21",
+		"editorCursor.foreground": "#c5c8c6",
+		"editor.foreground": "#dddddd",
+		"editor.lineHighlightBackground": "#2f2f2f",
+		"editor.selectionBackground": "#0050a0"
+	},
+	"name": "Brackets Dark Pro"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "brackets-dark-pro",
+  "displayName": "Brackets Dark Pro",
+  "description": "Brackets Dark Pro Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Brackets Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BracketsDarkPro-color-theme.json"
+      }
+    ]
+  }
+}

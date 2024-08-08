@@ -103,7 +103,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#aaaaaa"
+        "foreground": "#767676"
       }
     },
     {
@@ -169,7 +169,7 @@
         // "keyword.other"
       ],
       "settings": {
-        "foreground": "#d89333"
+        "foreground": "#6c9ef8"
       }
     },
     {
@@ -209,7 +209,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#d89333"
+        "foreground": "#dddddd"
       }
     },
     {
@@ -282,10 +282,18 @@
       "name": "CSS at-rule",
       "scope": [
         "keyword.control.at-rule",
-        "meta.at-rule support.type.property-name",
       ],
       "settings": {
         "foreground": "#b77fdb"
+      }
+    },
+    {
+      "name": "CSS property media",
+      "scope": [
+        "support.type.property-name.media.css",
+      ],
+      "settings": {
+        "foreground": "#dddddd"
       }
     },
     {
@@ -383,7 +391,6 @@
         "variable.language"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#dddddd"
       }
     },

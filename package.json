@@ -1,7 +1,8 @@
 {
   "name": "brackets-dark-pro",
   "displayName": "Brackets Dark Pro",
-  "description": "Brackets Dark Pro Theme",
+  "icon": "icon.png",
+  "description": "Dark theme based on the built-in theme of Brackets and Phoenix Code.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"

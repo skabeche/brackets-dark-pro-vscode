@@ -3,12 +3,23 @@
   "displayName": "Brackets Dark Pro",
   "icon": "icon.png",
   "description": "Dark theme based on the built-in theme of Brackets and Phoenix Code.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skabeche/brackets-dark-pro-vscode"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "brackets",
+    "phoenix"
   ],
   "contributes": {
     "themes": [

@@ -4,6 +4,7 @@
   "icon": "icon.png",
   "description": "Dark theme based on the built-in theme of Brackets and Phoenix Code.",
   "version": "1.0.0",
+  "publisher": "danalc",
   "engines": {
     "vscode": "^1.92.0"
   },

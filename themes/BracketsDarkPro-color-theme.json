@@ -121,12 +121,20 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#b77fdb"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": [
+        "meta.function-call",
+      ],
+      "settings": {
+        "foreground": "#dddddd"
       }
     },
     {
@@ -158,9 +166,8 @@
       }
     },
     {
-      "name": "Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Function Argument, Tag Attribute, Embedded",
       "scope": [
-        "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -170,6 +177,15 @@
       ],
       "settings": {
         "foreground": "#6c9ef8"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant.language",
+      ],
+      "settings": {
+        "foreground": "#d89333"
       }
     },
     {
@@ -302,7 +318,7 @@
         "meta.property-value.css",
       ],
       "settings": {
-        "foreground": "#d89333"
+        "foreground": "#dddddd"
       }
     },
     {
@@ -450,6 +466,24 @@
       ],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "CSS keyframe list",
+      "scope": [
+        "variable.parameter.keyframe-list.css"
+      ],
+      "settings": {
+        "foreground": "#dddddd"
+      }
+    },
+    {
+      "name": "Tailwind Punctuation",
+      "scope": [
+        "punctuation.terminator.apply.tailwind"
+      ],
+      "settings": {
+        "foreground": "#dddddd"
       }
     },
     {

@@ -36,7 +36,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#d89333"
       }
     },
     // {
@@ -70,6 +70,15 @@
       }
     },
     {
+      "name": "Keyword unit",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#6c9ef8"
+      }
+    },
+    {
       "name": "Keyword other",
       "scope": [
         "keyword.other",
@@ -82,7 +91,7 @@
       "name": "Operator, Misc",
       "scope": [
         "keyword.control",
-        "constant.other.color",
+        // "constant.other.color",
         // "punctuation",
         // "meta.tag",
         "punctuation.definition.tag",
@@ -166,23 +175,13 @@
       }
     },
     {
-      "name": "Function Argument, Tag Attribute, Embedded",
+      "name": "Constant, Function Argument",
       "scope": [
+        "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
         "variable.parameter",
-        "keyword.other.unit",
-        // "keyword.other"
-      ],
-      "settings": {
-        "foreground": "#6c9ef8"
-      }
-    },
-    {
-      "name": "Constant",
-      "scope": [
-        "constant.language",
       ],
       "settings": {
         "foreground": "#d89333"
@@ -316,9 +315,10 @@
       "name": "CSS property-value",
       "scope": [
         "meta.property-value.css",
+        "meta.property-value.scss",
       ],
       "settings": {
-        "foreground": "#dddddd"
+        "foreground": "#d89333"
       }
     },
     {
@@ -328,6 +328,15 @@
       ],
       "settings": {
         "foreground": "#fd657e"
+      }
+    },
+    {
+      "name": "CSS important",
+      "scope": [
+        "keyword.other.important.css",
+      ],
+      "settings": {
+        "foreground": "#ec0909"
       }
     },
     {
@@ -417,7 +426,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#82AAFF"
+        "foreground": "#6c9ef8"
       }
     },
     {
@@ -427,7 +436,7 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#6c9ef8"
       }
     },
     {
@@ -451,9 +460,10 @@
       }
     },
     {
-      "name": "CSS Classes",
+      "name": "CSS Classes, media",
       "scope": [
-        "entity.other.attribute-name.class.css"
+        "entity.other.attribute-name.class.css",
+        "support.constant.media.css"
       ],
       "settings": {
         "foreground": "#85a300"
@@ -465,7 +475,17 @@
         "source.sass keyword.control"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#6c9ef8"
+      }
+    },
+    {
+      "name": "CSS operator logical",
+      "scope": [
+        "keyword.operator.logical.and.media.css",
+        "keyword.operator.logical.scss"
+      ],
+      "settings": {
+        "foreground": "#6c9ef8"
       }
     },
     {
@@ -475,6 +495,15 @@
       ],
       "settings": {
         "foreground": "#dddddd"
+      }
+    },
+    {
+      "name": "Tailwind variable parameter",
+      "scope": [
+        "variable.parameter.tailwind.tailwind"
+      ],
+      "settings": {
+        "foreground": "#d89333"
       }
     },
     {

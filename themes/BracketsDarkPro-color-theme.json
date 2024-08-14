@@ -312,13 +312,14 @@
       }
     },
     {
-      "name": "CSS property-value",
+      "name": "CSS property-value, SASS function",
       "scope": [
         "meta.property-value.css",
         "meta.property-value.scss",
+        "entity.name.function.scss"
       ],
       "settings": {
-        "foreground": "#d89333"
+        "foreground": "#dddddd"
       }
     },
     {
@@ -463,7 +464,8 @@
       "name": "CSS Classes, media",
       "scope": [
         "entity.other.attribute-name.class.css",
-        "support.constant.media.css"
+        "support.constant.media.css",
+        "entity.name.tag.css"
       ],
       "settings": {
         "foreground": "#85a300"
@@ -489,9 +491,10 @@
       }
     },
     {
-      "name": "CSS keyframe list",
+      "name": "CSS keyframe list, pseudoelement",
       "scope": [
-        "variable.parameter.keyframe-list.css"
+        "variable.parameter.keyframe-list.css",
+        "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
         "foreground": "#dddddd"

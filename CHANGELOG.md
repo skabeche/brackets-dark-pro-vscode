@@ -1,9 +1,14 @@
 # Change Log
 
-All notable changes to the "brackets-dark-pro" extension will be documented in this file.
+## 1.1.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Fix some colours for CSS and SCSS.
+- Update Readme.md and screenshot.
 
-## [Unreleased]
+## 1.1.0
+
+- Add colours for CSS, SCSS and Tailwind.
+
+## 1.0
 
 - Initial release

@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2
+
+- Change styles to the status bar and line highlight.
+
 ## 1.1.1
 
 - Fix some colours for CSS and SCSS.

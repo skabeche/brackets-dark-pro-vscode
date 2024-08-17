@@ -4,10 +4,14 @@
     "editor.background": "#1d1f21",
     "editorCursor.foreground": "#c5c8c6",
     "editor.foreground": "#dddddd",
-    "editor.lineHighlightBackground": "#2f2f2f",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
     "editor.selectionBackground": "#0050a0",
     "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "sideBarTitle.foreground": "#bbbbbb",
+    "statusBar.background": "#303030",
+    "statusBar.noFolderBackground": "#303030",
+    "statusBar.debuggingBackground": "#511f1f"
   },
   "tokenColors": [
     {

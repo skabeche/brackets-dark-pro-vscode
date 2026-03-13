@@ -244,6 +244,7 @@
       "name": "CSS Selector",
       "scope": [
         "meta.selector.css entity.name.tag.css",
+        "meta.property-list.css",
         "meta.selector.css entity.other.attribute-name.class.css",
         "meta.selector.css entity.other.attribute-name.id.css",
         "meta.selector.css meta.attribute-selector.css entity.other.attribute-name.attribute.css",

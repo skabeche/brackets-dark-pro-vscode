@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.1
+
+- Fix colour highlighting for nested CSS selectors.
+
 ## 1.2
 
 - Change styles to the status bar and line highlight.

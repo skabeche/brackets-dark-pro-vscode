@@ -26,13 +26,11 @@
   "contributes": {
     "themes": [
       {
-        "id": "brackets-dark-pro",
         "label": "Brackets Dark Pro",
         "uiTheme": "vs-dark",
         "path": "./themes/brackets_dark_pro.json"
       },
       {
-        "id": "brackets-dark-pro-modern",
         "label": "Brackets Dark Pro Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/brackets_dark_pro_modern.json"

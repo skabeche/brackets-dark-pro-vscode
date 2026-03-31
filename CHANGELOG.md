@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0.1
+
+- Remove theme ID from configuration.
+
 ## 2.0
 
 - Add a new modern theme variation.

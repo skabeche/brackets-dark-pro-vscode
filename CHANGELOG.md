@@ -1,5 +1,9 @@
 # Change Log
 
+## 2.0
+
+- Add a new modern theme variation.
+
 ## 1.2.1
 
 - Fix colour highlighting for nested CSS selectors.

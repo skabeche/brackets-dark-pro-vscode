@@ -3,7 +3,7 @@
   "displayName": "Brackets Dark Pro",
   "icon": "icon.png",
   "description": "Dark themes based on the built-in theme of Brackets and Phoenix Code.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "publisher": "danalc",
   "engines": {
     "vscode": "^1.92.0"

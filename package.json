@@ -2,7 +2,7 @@
   "name": "brackets-dark-pro",
   "displayName": "Brackets Dark Pro",
   "icon": "icon.png",
-  "description": "Dark theme based on the built-in theme of Brackets and Phoenix Code.",
+  "description": "Dark themes based on the built-in theme of Brackets and Phoenix Code.",
   "version": "1.2.1",
   "publisher": "danalc",
   "engines": {
@@ -19,15 +19,23 @@
     "theme",
     "dark",
     "dark theme",
+    "modern",
     "brackets",
     "phoenix"
   ],
   "contributes": {
     "themes": [
       {
+        "id": "brackets-dark-pro",
         "label": "Brackets Dark Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/BracketsDarkPro-color-theme.json"
+        "path": "./themes/brackets_dark_pro.json"
+      },
+      {
+        "id": "brackets-dark-pro-modern",
+        "label": "Brackets Dark Pro Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brackets_dark_pro_modern.json"
       }
     ]
   }
